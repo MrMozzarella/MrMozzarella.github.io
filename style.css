@@ -1,0 +1,49 @@
+.MainContainer {
+	display: flex;
+	flex-direction: column;
+	border: solid 1px black;
+}
+
+nav {
+	background: #5995DA;
+	height: 60px;
+	text-align: center;
+}
+
+img.left {
+	height: 80px;
+    width: 80%;
+}
+
+img {
+	padding: 8px;
+}
+
+.Content {
+	display: flex;
+	flex-grow: 1;
+	background: #cebacf;
+	display: flex;
+}
+
+.Left {
+	flex-grow: 1;
+	border: solid 1px black;
+	display: flex;
+	flex-direction: column;
+}
+
+.Center {
+	flex-grow: 3;
+	border: solid 1px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Right {
+	flex-grow: 1;
+	border: solid 1px black;
+}
+
